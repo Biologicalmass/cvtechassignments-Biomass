@@ -1,0 +1,288 @@
+h1{
+    text-align: right;
+}
+p{
+    text-align: center;
+}
+h3{
+text-align: center;
+background-color: rgb(71, 71, 71);
+}
+
+.Last {
+    position: absolute;
+    left: 670px;
+    top: 352px;
+}
+.name{
+    position: absolute;
+    left: 850px;
+    top: 352px;
+}
+.middle {
+    position: absolute;
+    left: 990px;
+    top: 352px;
+}
+.street {
+    position: absolute;
+    left: 655px;
+    top: 420px;
+}
+.city {
+    position: absolute;
+    left: 900px;
+    top: 420px;
+}
+.state {
+    position: absolute;
+    left: 1050px;
+    top: 420px;
+}
+.zip {
+    position: absolute;
+    left: 1200px;
+    top: 420px;
+}
+.dollar1{
+    position: absolute;
+        left: 1230px;
+        top: 535px;
+}
+.number {
+    position: absolute;
+    left: 850px;
+    top: 535px;
+}
+.yes_no1{
+    position: absolute;
+    left: 900px;
+    top: 720px
+    
+}
+.yes1{
+    position: absolute;
+    left: 897px;
+    top: 690px;
+}
+.no1 {
+    position: absolute;
+    left: 930px;
+    top: 690px;
+}
+.yes_no2 {
+    position: absolute;
+    left: 1280px;
+    top: 720px
+}
+
+.yes2 {
+    position: absolute;
+    left: 1277px;
+    top: 690px;
+}
+
+.no2 {
+    position: absolute;
+    left: 1307px;
+    top: 690px;
+}
+.yes_no3{
+    position: absolute;
+    left: 860px;
+    top: 755px;
+}
+.yes3 {
+    position: absolute;
+    left: 860px;
+    top: 725px;
+}
+
+.no3 {
+    position: absolute;
+    left: 890px;
+    top: 725px;
+}
+.yes_no4 {
+    position: absolute;
+    left: 830px;
+    top: 790px;
+}
+
+.yes4 {
+    position: absolute;
+    left: 830px;
+    top: 760px;
+}
+
+.no4 {
+    position: absolute;
+    left: 860px;
+    top: 760px;
+}
+.yes_no5 {
+    position: absolute;
+    left: 1005px;
+    top: 937px;
+}
+
+.yes5 {
+    position: absolute;
+    left: 1005px;
+    top: 907px;
+}
+
+.no5 {
+    position: absolute;
+    left: 1035px;
+    top: 907px;
+}
+.yes_no6 {
+    position: absolute;
+    left: 1008px;
+    top: 1007px;
+}
+
+.yes6 {
+    position: absolute;
+    left: 1008px;
+    top: 980px;
+}
+
+.no6 {
+    position: absolute;
+    left: 1035px;
+    top: 980px;
+}
+.yes_no7 {
+    position: absolute;
+    left: 1008px;
+    top: 1073px;
+}
+
+.yes7 {
+    position: absolute;
+    left: 1008px;
+    top: 1045px;
+}
+
+.no7 {
+    position: absolute;
+    left: 1035px;
+    top: 1045px;
+}
+._1{
+    position: absolute;
+    left: 385px;
+    top: 1250px;
+}
+._2 {
+    position: absolute;
+    left: 385px;
+    top: 1390px;
+}
+.yes_no8 {
+    position: absolute;
+    left: 770px;
+    top: 1770px;
+}
+
+.yes8 {
+    position: absolute;
+    left: 770px;
+    top: 1742px;
+}
+
+.no8 {
+    position: absolute;
+    left: 800px;
+    top: 1742px;
+}
+
+._3{
+    position: absolute;
+    left: 400px;
+    top: 1770px;
+}
+._4 {
+    position: absolute;
+    left: 400px;
+    top: 1780px;
+}
+.yes_no9 {
+    position: absolute;
+    left: 770px;
+    top: 2010px;
+}
+
+.yes9 {
+    position: absolute;
+    left: 770px;
+    top: 1980px;
+}
+
+.no9 {
+    position: absolute;
+    left: 800px;
+    top: 1980px;
+}
+._5 {
+    position: absolute;
+    left: 400px;
+    top: 2000px;
+}
+
+._6 {
+    position: absolute;
+    left: 400px;
+    top: 2010px;
+}
+.yes_no10 {
+    position: absolute;
+    left: 770px;
+    top: 2247px;
+}
+
+.yes10 {
+    position: absolute;
+    left: 770px;
+    top: 2218px;
+}
+
+.no10 {
+    position: absolute;
+    left: 800px;
+    top: 2218px;
+}
+.dollar2{
+    position: absolute;
+        left: 925px;
+        top: 1650px;
+}
+.dollar3 {
+    position: absolute;
+    left: 1220px;
+    top: 1650px;
+}
+.dollar4 {
+    position: absolute;
+    left: 925px;
+    top: 1890px;
+}
+
+.dollar5 {
+    position: absolute;
+    left: 1220px;
+    top: 1890px;
+}
+.dollar6 {
+    position: absolute;
+    left: 925px;
+    top: 2127px;
+}
+
+.dollar7 {
+    position: absolute;
+    left: 1220px;
+    top: 2127px;
+}

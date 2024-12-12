@@ -1,0 +1,19 @@
+/*Mason Blankenship 09/??/24*/
+table, th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th {
+    font-size: 20px;
+}
+
+#banana table, td{
+    border: 1px solid black;
+        border-collapse: collapse;
+}
+#banana td {
+    font-size: 14px;
+    text-align: center;
+    
+}
+#banana tr:nth-child(){background-color: lightgray;}
