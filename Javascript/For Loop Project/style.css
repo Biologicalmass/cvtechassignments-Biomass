@@ -1,0 +1,13 @@
+form{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color:green
+}
+#button:hover{
+    background-color: lightskyblue;
+    color: white
+    
+}
