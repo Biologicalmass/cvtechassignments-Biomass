@@ -1,0 +1,17 @@
+p{
+    text-align: center;
+    font-size: 150px;
+}
+/*A mess that involves how the button looks on the page*/
+button{
+    background-color: lightseagreen;
+    color: white;
+    padding: 40px;
+    font-size: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin:0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
