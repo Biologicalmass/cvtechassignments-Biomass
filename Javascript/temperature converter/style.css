@@ -1,0 +1,15 @@
+/* Makes the input centeraligned */
+.center{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+/* Makes the font size 80 pixels */
+div{
+    font-size: 80px;
+}
+/*Makes the input with the id button turn the cursor to pointer when hovered*/
+#button{
+    cursor: pointer;
+}

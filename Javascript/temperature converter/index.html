@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Heading text -->
+    <h1 class='center' >Type a Number to Convert</h1>
+    
+    <!-- The form where function and input information is -->
+    <form action="">
+
+        <!-- Textbox that takes user input -->
+        <input class='center' type="number" id="input">
+        <br>
+
+        <!-- Basic explanation text -->
+        <label class='center' for="temp1">Select a starting temperature:</label>
+
+        <!-- First Dropdown Box for type of temperature -->
+        <select class='center' name="temp1" id="temp1">
+            <option id="blank1" value=""></option>
+            <option id="C1" value="C">Celsius</option>
+            <option id="F1" value="F">Fahrenheit</option>
+            <option id="K1" value="K">Kelvin</option>
+        </select>
+        <br>
+
+        <!-- Basic explanation text -->
+        <label class='center' for="temp2">Select conversion temperature:</label>
+
+        <!-- Second Dropdown Box for type of temperature -->
+        <select class='center' name="temp2" id="temp2">
+            <option id="blank2" value=""></option>
+            <option id="C2" value="C">Celsius</option>
+            <option id="F2" value="F">Fahrenheit</option>
+            <option id="K2" value="K">Kelvin</option>
+        </select>
+
+        <!-- Convert buton Display -->
+        <input class='center' type="button" id="button" value="Convert" onclick="convert()"></input>
+    </form>
+    <br>
+    <hr>
+
+    <!-- Displays the output -->
+    <div class='center' id="result">
+    </div>
+</body>
+</html>
