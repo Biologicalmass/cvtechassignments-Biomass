@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradebook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 class="center">Grade Average Discerner</h1>
+    <!-- Print today's date -->
+    <p class="center" id="date"> </p>
+    <!-- Script used to calculate today's date -->
+    <script>
+        const date = new Date();
+        let text = date.toDateString();
+        document.getElementById('date').innerHTML = "Today's Date: " + text
+    </script>
+    <form action="">
+        <!-- First Name input box -->
+    <label class="center" for="fName">First Name:</label> 
+    <input class="center" type="text" id="fName">
+    <br>
+    <!-- Last Name input box -->
+    <label class="center" for="lName">Last Name:</label>
+    <input class="center" type="text" id="lName">
+    <br>
+    <!-- Grade 1 input box -->
+    <label class="center" for="grade1">Grade 1:</label>
+    <input class="center" type="number" id="grade1">
+    <br>
+    <!-- Grade 12 input box -->
+    <label class="center" for="grade2">Grade 2:</label>
+    <input class="center" type="number" id="grade2">
+    <br>
+    <!-- Grade 3 input box -->
+    <label class="center" for="grade3">Grade 3:</label>
+    <input class="center" type="number" id="grade3">
+    <br>
+    <br>
+    <!-- Submission button -->
+    <input class="center" type="button" id="button" value="Convert" onclick="calculate()">
+    </form>
+    <hr>
+    <br>
+    <!-- Output text after functions Calculate and Display are run -->
+    <!-- Output text after function display is run -->
+    <div class="center" id="stringOutput"></div>
+    <br>
+    <!-- Output text after function display is run -->
+    <div class="center" id="grades"></div>
+    <!-- Output text after function average and calculate is run alongside display-->
+    <div class="center" id="average"></div>
+    <!-- Output text after function calculate and letterGrade is run -->
+    <div class="center" id="letterG"></div>
+</body>
+</html>
