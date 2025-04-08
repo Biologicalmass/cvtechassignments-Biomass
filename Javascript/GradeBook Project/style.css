@@ -1,0 +1,11 @@
+/* Centers the input fields and text */
+.center{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Makes the cursor go pointer mode over a button */
+#button{
+    cursor: pointer;
+}
